@@ -1,25 +1,22 @@
-<mat-toolbar color="basic">
-    
+<div class="cont">
+  <mat-toolbar color="basic">
+
     <mat-toolbar-row>
-   
+      <div>
         <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-            <mat-icon>menu</mat-icon>
-          </button>
-      <span>Drive 2.0</span>
-     
-      <span class="example-spacer"></span>
-        
-      
-      <mat-form-field class="example-full-width" appearance="fill">
-        <input matInput placeholder="Search" value="">
-
-        <button matInput mat-icon-button class="example-icon" aria-label="Example icon-button with search icon">
-            <mat-icon>search</mat-icon>
+          <mat-icon>menu</mat-icon>
         </button>
-      </mat-form-field>
-
-    
-
-  
-
+        <span>Drive 2.0</span>
+      </div>
+      <div>
+        <input type="search">
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+          <mat-icon>search</mat-icon>
+        </button>
+      </div>
     </mat-toolbar-row>
+
+  </mat-toolbar>
+
+</div>
+<app-side-nav></app-side-nav>
